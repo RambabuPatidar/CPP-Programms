@@ -1,0 +1,17 @@
+problemsToDo:
+
+💡. when we use and between two condition it return false if the first one is false and do not check the secon at all 
+    but when the first condition is true it will check for second .
+
+    
+1. INORDER SUCCESSOR OF BST AND BT
+2. SWAP THE NODE IN LINKED LIST BY NODES
+3. IMPLEMENT CIRCULAR QUEUE
+4. ROTATE MATRIX ELEMENT ANTICLOCKWISE BY ONE 
+5. CHECK A GIVEN BST HAS ONLY ONLY CHILD FOR ALL NODES EXCEPT LEAF NODE
+6. REPLACE EACH NODE OF A BINARY TREE WITH THE SUM OF ITS INORDER PREDECESSOR AND SUCCESSOR
+7. SEE ONE MORE TIME THE CIRCULAR QUEUE
+8. IS A GIVEN BINARY TREE IS HEAP
+9. MERGE K SORTED ARRAY WITH ARRAY AND WITH HEAPS ALSO 
+10. MERGE TWO SORTED LINKED LIST JUST BY SPLICING THE NODES, ie. we have to change the pointer of the twon linked list such that they come in sorted order.
+11. DEPTH IN FIRST SEARCH OF GRAPH ITERATIVE WAY.
