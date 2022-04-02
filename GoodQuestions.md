@@ -1,1 +1,1 @@
-- [Find for prime in less than O(n) time complexity?]`Maths`
+- [Check for Prime Number in less than O(n) time complexity?] ` Basic Maths `
