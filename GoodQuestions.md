@@ -1,0 +1,1 @@
+- [Find for prime in less than O(n) time complexity?]`Maths`
