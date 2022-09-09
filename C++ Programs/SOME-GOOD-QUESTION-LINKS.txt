@@ -1,0 +1,20 @@
+1. https://www.techiedelight.com/design-stack-which-returns-minimum-element-constant-time/
+
+2. http://www.cs.umd.edu/~meesh/351/mount/lectures/lect14-heapsort-analysis-part.pdf
+
+3. method 2 (use of temporary array )
+    https://www.geeksforgeeks.org/k-largestor-smallest-elements-in-an-array/
+
+4. best use of multiset stl 
+    https://codeforces.com/contest/558/problem/E?csrf_token=1a7b25d6e38e01417faed20c162b5b11
+
+5. https://workat.tech/problem-solving/practice/identical-twins/editorial
+
+6. give a try in log(n) 
+    https://workat.tech/problem-solving/practice/search-rotated-array
+
+7. best of binary search in Matrix 
+    https://afteracademy.com/blog/search-in-a-2d-matrix
+
+8. TIP: -4 -8 -16 and so on are not considerd as a power of 2. simple yet i made mistake 
+    so writing it here.
