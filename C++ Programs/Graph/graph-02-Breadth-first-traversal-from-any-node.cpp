@@ -19,7 +19,7 @@ void printGraph(list<int> li[], int n) {
 
 void breadthFirstSearch(list<int> li[], int n, int s) {
     queue<int> q;
-    int arr[n] = {0};
+    int arr[n] = {0}; // this is and visited array 
     q.push(s);
     arr[s] = 1;
     while( q.empty() == false) {
@@ -66,3 +66,5 @@ int main(){
     breadthFirstSearch(li, n, 3);
     return 0;
 }
+
+// This works very fine untill we donot have disconnect graph.

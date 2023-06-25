@@ -17,8 +17,7 @@ void DepthFirstSearchTraversal(list<int> li[],int s, int arr[]) {
     list<int> ::iterator it;
     for(it = li[s].begin(); it != li[s].end(); it++) {
         if( arr[*it] != 1){
-
-        DepthFirstSearchTraversal(li, *it, arr);
+            DepthFirstSearchTraversal(li, *it, arr);
         }
     }
 }
@@ -45,3 +44,14 @@ int main() {
     DepthFirstSearchTraversal(li, 2, arr);
     return 0;
 }
+
+/* 
+we have this working algorithm but this will fail when we have different 
+disconnected graph so just loop to all the vertex outer to the current algorithm 
+so that when the disconnected vertex is not visited by inner algo it also 
+see by the outer loop that does the vertex is visited or not ,if not again 
+follow the inner algorithm for the rest of the disconected graph.
+
+implement this as 02-DFS-for-disconnected-graph.cpp
+                and 01-BFS-for-disconnected-graph.cpp
+ */
