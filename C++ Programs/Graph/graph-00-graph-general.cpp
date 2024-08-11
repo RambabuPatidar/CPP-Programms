@@ -52,10 +52,7 @@ void printAllPaths(Graph graph, int src, int dst, vector<int> &visited, string p
     {
         path += to_string(src);
 
-        if (path.length() == graph.size())
-        {
-            cout << path << " ";
-        }
+        cout << path << " ";
         return;
     }
 
@@ -159,6 +156,6 @@ int main()
     }
 
     vector<int> visited(graph.size(), 0);
-    iterativeDFS(graph, 0);
+    printAllPaths(graph, 0, 6, visited, "");
     return 0;
 }
